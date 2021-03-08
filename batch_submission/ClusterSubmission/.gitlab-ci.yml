@@ -1,0 +1,18 @@
+# This CI is formatting python files using the common ATLAS/XAMPP style
+stages:
+  - format_code
+  
+format_code:
+  stage: format_code
+  image: gitlab-registry.cern.ch/xampp/atlas-code-format
+  variables: {
+      yapf_dirs: 'python scripts',      # yapf-format python files
+      clang_dirs: 'util'
+  }
+  before_script:
+    - git config --global user.name "xampp" && git config --global user.email "xampp.doxy@cern.ch"
+    - git checkout -b ${CI_COMMIT_REF_NAME} || echo "Branch ${CI_COMMIT_REF_NAME} already exists, checking it out" && git checkout ${CI_COMMIT_REF_NAME}
+  script:
+     - /scripts/format_code
+  only:
+    - master

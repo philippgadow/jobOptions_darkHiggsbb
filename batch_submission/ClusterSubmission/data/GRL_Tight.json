@@ -1,0 +1,20 @@
+{
+    "GRL": {
+        "data15": "GoodRunsLists/data15_13TeV/20190707/data15_13TeV.periodAllYear_DetStatus-v105-pro22-13_Unknown_PHYS_Susy_AllGood_DisappearingTrack.xml",
+        "data16": "GoodRunsLists/data16_13TeV/20190707/data16_13TeV.periodAllYear_DetStatus-v105-pro22-13_Unknown_PHYS_Susy_AllGood_DisappearingTrack.xml",
+        "data17": "GoodRunsLists/data17_13TeV/20190707/data17_13TeV.periodAllYear_DetStatus-v105-pro22-13_Unknown_PHYS_Susy_AllGood_DisappearingTrack.xml",
+        "data18": "GoodRunsLists/data18_13TeV/20190707/data18_13TeV.periodAllYear_DetStatus-v105-pro22-13_Unknown_PHYS_Susy_AllGood_DisappearingTrack.xml"
+    },
+    "lumiCalc": {
+        "data15": "GoodRunsLists/data15_13TeV/20190707/ilumicalc_histograms_None_276262-284484_Susy_AllGood_DisappearingTrack_OflLumi-13TeV-010.root",
+        "data16": "GoodRunsLists/data16_13TeV/20190707/ilumicalc_histograms_None_297730-311481_Susy_AllGood_DisappearingTrack_OflLumi-13TeV-010.root",
+        "data17": "GoodRunsLists/data17_13TeV/20190707/ilumicalc_histograms_None_325713-340453_Susy_AllGood_DisappearingTrack_OflLumi-13TeV-010.root",
+        "data18": "GoodRunsLists/data18_13TeV/20190707/ilumicalc_histograms_None_348885-364292_Susy_AllGood_DisappearingTrack_OflLumi-13TeV-010.root"
+    },
+    "actualMu": {
+    "data15": "",
+    "data16": "",
+    "data17": "GoodRunsLists/data17_13TeV/20190707/purw.actualMu.2017_Susy_AllGood_DisappearingTrack.root",
+    "data18": "GoodRunsLists/data18_13TeV/20190707/purw.actualMu.2018_Susy_AllGood_DisappearingTrack.root"
+    }
+}
