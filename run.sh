@@ -6,8 +6,8 @@ export PYTHONPATH=$PWD/models:$PYTHONPATH
 # set DSID
 DSID=${1}
 if [[ -z ${DSID} ]]; then
-    echo "DSID not provided, using 100000 as default.";
-    DSID=100000;
+    echo "DSID not provided, using 110000 as default.";
+    DSID=110000;
 fi
 
 # launch job

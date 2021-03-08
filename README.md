@@ -22,5 +22,5 @@ source run_batch.sh
 
 ### Modify job option
 
-Take the job option [`100xxx/100000/MadGraphControl_MadGraphPythia8_N31LO_A14N23LO_monoSbb_CKKWL.py`](https://github.com/philippgadow/jobOptions_darkHiggsbb/blob/master/100xxx/100000/MadGraphControl_MadGraphPythia8_N31LO_A14N23LO_monoSbb_CKKWL.py) to implement your changes for testing.
+Take the job option [`110xxx/110000/MadGraphControl_MadGraphPythia8_N31LO_A14N23LO_monoSbb_CKKWL.py`](https://github.com/philippgadow/jobOptions_darkHiggsbb/blob/master/110xxx/110000/MadGraphControl_MadGraphPythia8_N31LO_A14N23LO_monoSbb_CKKWL.py) to implement your changes for testing.
 All other copies of that job option are symlinks to this file.
