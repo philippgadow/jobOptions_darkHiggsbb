@@ -1,5 +1,5 @@
 gq = 0.25
-gx = 1.50
+gx = 2.70
 th = 0.01
 evgenConfig.nEventsPerJob = 10000
 
